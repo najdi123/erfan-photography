@@ -1,0 +1,106 @@
+/*img.thumbnail {*/
+    /*!*height: 250px;*!*/
+    /*!*width: 250px;*!*/
+    /*height: auto;*/
+    /*!*width: 22%;*!*/
+    /*width: 300px;*/
+    /*margin: 5px 1px 5px 10px;*/
+    /*cursor: pointer;*/
+    /*border-radius: 15px;*/
+    /*display: inline-block;*/
+
+
+/*}*/
+
+
+img.ril-image-current.ril__image{
+    height: auto;
+    width: auto;
+}
+.image-display{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 250px) {
+    img.thumbnail {
+        /*height: 250px;*/
+        /*width: 250px;*/
+        height: auto;
+        width: 94%;
+        /*margin: 5px 1px 5px 10px;*/
+        margin: 10px;
+        cursor: pointer;
+        border-radius: 15px;
+        display: inline-block;
+
+        flex: 0 0 95%;
+        max-width: 95%;
+
+    }
+}
+
+@media (min-width: 577px) {
+    img.thumbnail {
+        /*height: 250px;*/
+        /*width: 250px;*/
+        height: auto;
+        width: 43%;
+        /*margin: 5px 1px 5px 10px;*/
+        margin: 10px;
+        cursor: pointer;
+        border-radius: 15px;
+        display: inline-block;
+
+        flex: 0 0 48%;
+        max-width: 48%;
+
+    }
+}
+
+@media (min-width: 768px) {
+    img.thumbnail {
+        /*height: 250px;*/
+        /*width: 250px;*/
+        height: auto;
+        width: 41%;
+        /*margin: 5px 1px 5px 10px;*/
+        margin: 10px;
+        cursor: pointer;
+        border-radius: 15px;
+        display: inline-block;
+
+        flex: 0 0 48%;
+        max-width: 48%;
+
+    }
+}
+
+@media (min-width: 992px) {
+    img.thumbnail {
+        /*height: 250px;*/
+        /*width: 250px;*/
+        height: auto;
+        width: 22%;
+        /*margin: 5px 1px 5px 10px;*/
+        margin: 10px;
+        cursor: pointer;
+        border-radius: 15px;
+        display: inline-block;
+
+        flex: 0 0 22%;
+        max-width: 22%;
+
+    }
+}
+
+
+
+

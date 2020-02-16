@@ -1,0 +1,18 @@
+.describe-designer {
+    font:  300 22px "worksans","Open Sans","Arial",sans-serif;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-transform: none;
+
+}
+.city-text{
+    /*padding: 1em 1em 1em 2em;*/
+    /*margin: 1em;*/
+    text-align: right;
+    padding: 20px 40px;
+}
+.city-image{
+    padding:0;
+
+}
+

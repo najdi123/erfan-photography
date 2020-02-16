@@ -1,0 +1,33 @@
+@font-face {
+    font-family: worksansbold;
+    src: url(../fonts/worksansbold.woff2);
+}
+@font-face {
+    font-family: worksans;
+    src: url(../fonts/worksans.woff2);
+
+}
+.about-erf {
+    margin: 1em;
+    text-align: center;
+    font:  300 15px "worksans","Open Sans","Arial",sans-serif;
+}
+.about-pic {
+    margin-top: 95px;
+    left: 0;
+    /*width: auto;*/
+    /*height: auto;*/
+}
+.contact {
+    font:   17px "worksansbold","Open Sans","Arial",sans-serif;
+    margin: 8px;
+    /*margin-left: 2em;*/
+    text-align: center;
+}
+.hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 240, 220, 0.9);
+}
+

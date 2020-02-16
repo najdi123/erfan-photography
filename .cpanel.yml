@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+  - export DEPLOYPATH=/home2/erfanask/repositories/temp-erf-photography/
+  - /public/index.html $DEPLOYPATH

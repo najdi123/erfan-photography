@@ -1,0 +1,64 @@
+@font-face {
+    font-family: worksansbold;
+    src: url(../fonts/worksansbold.woff2);
+}
+@font-face {
+    font-family: worksans;
+    src: url(../fonts/worksans.woff2);
+
+}
+@font-face {
+    font-family: shabnam;
+    src: url(../fonts/Shabnam.woff);
+
+}
+
+
+.navbar-brand {
+    color: #333;
+
+}
+
+a {
+    color: #333333;
+    font-weight: 200;
+}
+.nav-link{
+    /*background-color: #e5e5e5;*/
+
+    font: 15px "shabnam","Open Sans","Arial",sans-serif !important;
+    line-height: 35px;
+    text-align: center;
+    text-transform: none;
+}
+.header2{
+    color: rgb(0, 240, 220) !important;
+    background-color: #e5e5e5;
+
+    font:  300 20px "worksansbold","Open Sans","Arial",sans-serif;
+    line-height: 35px;
+    letter-spacing: 2px;
+    text-transform: none;
+}
+.nav-link:hover{
+    color: rgb(0, 240, 220) !important;
+}
+.sticky {
+    position: center;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    opacity:0.9;
+}
+.active {
+    color: rgb(0, 240, 220)!important;
+}
+.home {
+    text-transform: none;
+    text-decoration: none;
+}
+.home:hover{
+    color: rgb(0, 240, 220) !important;
+}
+
+

@@ -1,0 +1,67 @@
+@font-face {
+    font-family: worksansbold;
+    src: url(../fonts/worksansbold.woff2);
+}
+@font-face {
+    font-family: worksans;
+    src: url(../fonts/worksans.woff2);
+
+}
+
+
+
+.navbar-brand {
+    color: #333;
+
+}
+.brand-text {
+    color: rgb(0, 240, 220);
+}
+a {
+    color: #333333;
+    font-weight: 200;
+}
+
+.header{
+    /*margin-top: 50px;*/
+    background-color: transparent;
+
+    font:  300 12px "worksansbold","Open Sans","Arial",sans-serif;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-transform: none;
+    /*margin-left: 1em !important;*/
+}
+.header2{
+    color: rgb(0, 240, 220);
+    background-color: transparent;
+
+    font:  300 20px "worksansbold","Open Sans","Arial",sans-serif;
+    line-height: 35px;
+    letter-spacing: 2px;
+    text-transform: none;
+}
+.nav-link:hover{
+    color: rgb(0, 240, 220);
+}
+.sticky {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    /*z-index: 100;*/
+
+}
+/*.nav-item {*/
+    /*display: block;*/
+    /*position: relative;*/
+    /*float: right;*/
+/*}*/
+.ml-auto {
+    margin-right: 1% !important;
+}
+.go-right {
+    margin-right: 1% !important;
+}
+.lefto{
+    margin-left: 1% !important;
+}
