@@ -31,6 +31,14 @@ a {
     text-align: center;
     text-transform: none;
 }
+.nav-link1{
+    /*background-color: #e5e5e5;*/
+
+    font: 30px "shabnam","Open Sans","Arial",sans-serif !important;
+    line-height: 35px;
+    text-align: center;
+    text-transform: none;
+}
 .header2{
     color: rgb(0, 240, 220) !important;
     background-color: #e5e5e5;

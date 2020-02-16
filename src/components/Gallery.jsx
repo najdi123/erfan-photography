@@ -44,6 +44,7 @@ class Gallery extends Component {
 
                                     </div>
                                 </div>
+
                             </div>
                         <p className="hide">Food Photography Album</p>
                         <p className="farsi1 pt-1"> آلبوم غذا و خوراکی </p>

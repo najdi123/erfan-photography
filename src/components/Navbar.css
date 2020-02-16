@@ -15,6 +15,10 @@
 
 }
 .brand-text {
+    font:  300 26px "worksansbold","Open Sans","Arial",sans-serif;
+    line-height: 25px;
+    letter-spacing: 2px;
+
     color: rgb(0, 240, 220);
 }
 a {

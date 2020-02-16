@@ -11,7 +11,7 @@ class Navbar extends Component {
     render() {
         return (
             <nav className="navbar navbar-expand-sm header sticky navbar-light bg-light mb-4">
-                <div className="container ">
+                <div className="container-fluid ">
 
 
                     <button className="navbar-toggler navbar-toggler-right ml-auto" type="button" data-toggle="collapse" data-target="#mobile-nav">
@@ -33,17 +33,17 @@ class Navbar extends Component {
                     <div className="collapse navbar-collapse" id="mobile-nav">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
-                                <Link className="nav-link" to="/contact">
+                                <Link className="nav-link1" to="/contact">
                                     تماس با ما
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/about">
+                                <Link className="nav-link1" to="/about">
                                     درباره
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/">
+                                <Link className="nav-link1" to="/">
                                     خانه
                                 </Link>
                             </li>
