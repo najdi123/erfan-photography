@@ -41,7 +41,8 @@ img{
         border-radius: 0;
         display: inline-block;
 
-        height: fit-content;
+        /*height: fit-content;*/
+        height: 350px;
         object-fit: cover;
         /*flex: 0 0 95%;*/
         max-width: 100%;
@@ -57,6 +58,7 @@ img{
         /*height: fit-content;*/
         object-fit: cover;
         width: 50%;
+        /*height: 300px;*/
         /*margin: 5px 1px 5px 10px;*/
         margin: 0;
         cursor: pointer;
@@ -73,7 +75,7 @@ img{
     img.thumbnail {
         /*height: 250px;*/
         /*width: 250px;*/
-        height: auto;
+        height: 500px;
         width: 50%;
         /*margin: 5px 1px 5px 10px;*/
         margin: 0px;
@@ -91,7 +93,8 @@ img{
     img.thumbnail {
         /*height: 250px;*/
         /*width: 250px;*/
-        height: auto;
+        /*height: auto;*/
+        height: 400px;
         width: 25%;
         /*margin: 5px 1px 5px 10px;*/
         margin: 0;
