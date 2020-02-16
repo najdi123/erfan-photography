@@ -22,7 +22,7 @@
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../music-app/client" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -93,7 +93,7 @@
       <workItem from="1570692287098" duration="622000" />
       <workItem from="1570715448421" duration="1233000" />
       <workItem from="1581855558234" duration="914000" />
-      <workItem from="1581856514336" duration="10862000" />
+      <workItem from="1581856514336" duration="13556000" />
     </task>
     <servers />
   </component>
@@ -110,13 +110,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1581862047041">
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1581879957969">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581862047041" />
-    <state x="583" y="82" width="627" height="568" key="find.popup" timestamp="1581873464193">
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581879957969" />
+    <state x="583" y="82" width="627" height="568" key="find.popup" timestamp="1581880155151">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="583" y="82" width="627" height="568" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1581873464193" />
+    <state x="583" y="82" width="627" height="568" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1581880155151" />
   </component>
 </project>

@@ -6,7 +6,7 @@
     /*width: 300px;*/
     /*margin: 5px 1px 5px 10px;*/
     /*cursor: pointer;*/
-    /*border-radius: 15px;*/
+    /*border-radius: 0;*/
     /*display: inline-block;*/
 
 
@@ -33,16 +33,18 @@ img{
     img.thumbnail {
         /*height: 250px;*/
         /*width: 250px;*/
-        height: auto;
-        width: 94%;
+
+        width: 100%;
         /*margin: 5px 1px 5px 10px;*/
-        margin: 10px;
+        margin: 0;
         cursor: pointer;
-        border-radius: 15px;
+        border-radius: 0;
         display: inline-block;
 
-        flex: 0 0 95%;
-        max-width: 95%;
+        height: fit-content;
+        object-fit: cover;
+        /*flex: 0 0 95%;*/
+        max-width: 100%;
 
     }
 }
@@ -51,16 +53,18 @@ img{
     img.thumbnail {
         /*height: 250px;*/
         /*width: 250px;*/
-        height: auto;
-        width: 43%;
+        /*height: auto;*/
+        /*height: fit-content;*/
+        object-fit: cover;
+        width: 50%;
         /*margin: 5px 1px 5px 10px;*/
-        margin: 10px;
+        margin: 0;
         cursor: pointer;
-        border-radius: 15px;
+        border-radius: 0;
         display: inline-block;
 
-        flex: 0 0 48%;
-        max-width: 48%;
+        /*flex: 0 0 48%;*/
+        max-width: 50%;
 
     }
 }
@@ -70,15 +74,15 @@ img{
         /*height: 250px;*/
         /*width: 250px;*/
         height: auto;
-        width: 41%;
+        width: 50%;
         /*margin: 5px 1px 5px 10px;*/
-        margin: 10px;
+        margin: 0px;
         cursor: pointer;
-        border-radius: 15px;
+        border-radius: 0;
         display: inline-block;
 
         flex: 0 0 48%;
-        max-width: 48%;
+        max-width: 50%;
 
     }
 }
@@ -88,15 +92,15 @@ img{
         /*height: 250px;*/
         /*width: 250px;*/
         height: auto;
-        width: 22%;
+        width: 25%;
         /*margin: 5px 1px 5px 10px;*/
-        margin: 10px;
+        margin: 0;
         cursor: pointer;
-        border-radius: 15px;
+        border-radius: 0;
         display: inline-block;
 
         flex: 0 0 22%;
-        max-width: 22%;
+        max-width: 25%;
 
     }
 }

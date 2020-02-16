@@ -3,9 +3,13 @@
     src: url(../fonts/Shabnam.woff);
 
 }
+.col-md-6{
+    padding: 0;
+}
 .farsi1{
     font: 16px "shabnam","Open Sans","Arial",sans-serif !important;
     text-decoration: none;
+    margin-bottom: 10px;
 }
 .farsi2{
     font: 18px "shabnam","Open Sans","Arial",sans-serif !important;
@@ -18,12 +22,12 @@ img{
     height: auto;
 }
 .pax{
-    padding: 0.6rem;
+    /*padding: 0.6rem;*/
     text-align: center;
 }
-.portfolio{
-    padding: 10px 1.6rem 1.6rem 1.6rem;
-}
+/*.portfolio{*/
+/*    padding: 10px 1.6rem 1.6rem 1.6rem;*/
+/*}*/
 /*portfolio images with hover description*/
 .img__wrap {
     position: relative;
