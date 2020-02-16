@@ -34,10 +34,12 @@ a {
 .nav-link1{
     /*background-color: #e5e5e5;*/
 
-    font: 30px "shabnam","Open Sans","Arial",sans-serif !important;
+    font: 28px "shabnam","Open Sans","Arial",sans-serif !important;
     line-height: 35px;
     text-align: center;
     text-transform: none;
+    padding-left: 20px;
+
 }
 .header2{
     color: rgb(0, 240, 220) !important;
