@@ -9,10 +9,8 @@
 .farsi1{
     font: 16px "shabnam","Open Sans","Arial",sans-serif !important;
     text-decoration: none;
-    margin-bottom: 10px;
-
-    /*bottom: 100px;*/
-    /*z-index: auto;*/
+    padding-bottom: 5px;
+    margin-bottom: 0;
 }
 .farsi2{
     font: 18px "shabnam","Open Sans","Arial",sans-serif !important;
@@ -23,16 +21,30 @@
     text-decoration: none;
     line-height: 40px !important;
 }
-.hover:hover{
-    color: rgb(0, 240, 220);
+.hover {
+    letter-spacing: 0;
     text-decoration: none;
 }
-.pax:hover .hover{
-    color: rgb(0, 240, 220);
-    /*text-decoration-color: aquamarine;*/
-    text-decoration: none;
-    text-shadow: black;
+
+.hover:hover,
+.hover:active
+{
+    text-decoration-color: white!important;
 }
+.pax:hover .hover,
+.pax:active .hover
+{
+    color: rgb(76, 114, 118);
+    background-color: rgba(76, 114, 118, 0.04);
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #fdfdff;
+    text-underline: white!important;
+    /*text-shadow: black;*/
+    /*letter-spacing: 0.25px;*/
+    font-size: 16.25px!important;
+}
+
 
 img{
     display: block;
