@@ -29,30 +29,7 @@ class Gallery extends Component {
     render() {
         return (
             <div className="row portfolio">
-                <Fade right>
-                    <div className="col-sm-12 col-md-6 col-lg-4 pax">
-                        <Link to="/Photography/FoodPhotography">
-                            <div className="img__wrap thumbnail">
-
-                                <img className="img__img" src={p13} alt="آلبوم عکس غذا و رستوران" />
-
-                                <div className="img__description">
-                                    <div className="m-center">
-
-                                        <h4 className="hide">This album contains photos of foods, edibles and restaurants  </h4>
-                                        <h4 className="farsi2">آلبوم شامل عکس هایی از انواع خوراکی و غذا مثل آبمیوه، نوشیدنی گرم، دسر، سبزیجات، میوه، صبحانه، ساندویچ و پیتزا </h4>
-
-                                    </div>
-                                </div>
-
-                            </div>
-                        <p className="hide">Food Photography Album</p>
-                        <p className="farsi1 pt-1"> آلبوم غذا و خوراکی </p>
-                        </Link>
-                    </div>
-                </Fade>
-
-                <Fade bottom>
+                <Fade left>
                     <div className="col-sm-12 col-md-6 col-lg-4 pax">
                         <Link to="/Photography/ClothingPhotography">
                             <div className="img__wrap thumbnail">
@@ -66,13 +43,14 @@ class Gallery extends Component {
                                     </div>
                                 </div>
                             </div>
-                        <p className="hide">Clothing/Modeling Photography Album</p>
-                        <p className="farsi1 pt-1">آلبوم لباس و مدلینگ</p>
+                            <p className="hide">Clothing/Modeling Photography Album</p>
+                            <p className="farsi1 pt-1">آلبوم لباس و مدلینگ</p>
                         </Link>
                     </div>
+
                 </Fade>
 
-                <Fade right>
+                <Fade bottom>
                     <div className="col-sm-12 col-md-6 col-lg-4 pax">
                         <Link to="/Photography/IndustrialPhotography">
                             <div className="img__wrap thumbnail">
@@ -86,10 +64,31 @@ class Gallery extends Component {
                                     </div>
                                 </div>
                             </div>
-                        <p className="hide">Industrial Photography</p>
-                        <p className="farsi1 pt-1">آلبوم عکاسی صنعتی </p>
+                            <p className="hide">Industrial Photography</p>
+                            <p className="farsi1 pt-1">آلبوم عکاسی صنعتی </p>
                         </Link>
                     </div>
+                </Fade>
+
+                <Fade right>
+                    <div className="col-sm-12 col-md-6 col-lg-4 pax">
+                        <Link to="/Photography/pngPhotography">
+                            <div className="img__wrap thumbnail">
+                                <img className="img__img" src={p19} alt="آلبوم عکس از محصولات صنعتی با پس زمینه سفید مناسب برای کاتالگ و وبسایت" />
+                                <div className="img__description">
+                                    <div className="m-center">
+                                        <h4 className="hide">This album contains sharp images of products with white background, suitable for web and catalog usage </h4>
+                                        <h4 className="farsi2">
+                                            آلبوم شامل عکس هایی دقیق از محصولات با پشت زمینه سفید مناسب برای وب سایت و کاتالوگ
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <p className="hide">PNG Photography Album</p>
+                            <p className="farsi1 pt-1">PNG آلبوم عکاسی </p>
+                        </Link>
+                    </div>
+
                 </Fade>
 
 
@@ -110,47 +109,6 @@ class Gallery extends Component {
                 {/*</Fade>*/}
                 <Fade left>
                     <div className="col-sm-12 col-md-6 col-lg-4 pax">
-                        <Link to="/Photography/ChildrenPhotography">
-                            <div className="img__wrap thumbnail">
-                                <img className="img__img" src={p3} alt="آلبوم عکس از کودکان و نوجوانان" />
-                                <div className="img__description">
-                                    <div className="m-center">
-                                        <h4 className="hide">This album includes photos of children and youth </h4>
-                                        <h4 className="farsi2">
-                                            آلبوم شامل عکس هایی از کودکان
-                                        </h4>
-                                    </div>
-                                </div>
-                            </div>
-                        <p className="hide">Children Photography Album</p>
-                        <p className="farsi1 pt-1">آلبوم کودک</p>
-                        </Link>
-                    </div>
-                </Fade>
-
-
-
-                <Fade left>
-                    <div className="col-sm-12 col-md-6 col-lg-4 pax">
-                        <Link to="/Photography/pngPhotography">
-                            <div className="img__wrap thumbnail">
-                                <img className="img__img" src={p19} alt="آلبوم عکس از محصولات صنعتی با پس زمینه سفید مناسب برای کاتالگ و وبسایت" />
-                                <div className="img__description">
-                                    <div className="m-center">
-                                        <h4 className="hide">This album contains sharp images of products with white background, suitable for web and catalog usage </h4>
-                                        <h4 className="farsi2">
-                                            آلبوم شامل عکس هایی دقیق از محصولات با پشت زمینه سفید مناسب برای وب سایت و کاتالوگ
-                                        </h4>
-                                    </div>
-                                </div>
-                            </div>
-                        <p className="hide">PNG Photography Album</p>
-                        <p className="farsi1 pt-1">PNG آلبوم عکاسی </p>
-                        </Link>
-                    </div>
-                </Fade>
-                <Fade right>
-                    <div className="col-sm-12 col-md-6 col-lg-4 pax">
                         <Link to="/Photography/FamousFaces">
                             <div className="img__wrap thumbnail">
                                 <img className="img__img" src={p17} alt="آلبوم عکس از شخصیتهای معروف مثل بازیگران سینمایی و بازیکنان فوتبال و خواننده" />
@@ -163,10 +121,56 @@ class Gallery extends Component {
                                     </div>
                                 </div>
                             </div>
-                        <p className="hide">Famous faces Photography Album</p>
-                        <p className="farsi1 pt-1">آلبوم سلبریتی ها</p>
+                            <p className="hide">Famous faces Photography Album</p>
+                            <p className="farsi1 pt-1">آلبوم سلبریتی ها</p>
                         </Link>
                     </div>
+                </Fade>
+
+
+
+                <Fade left>
+
+                    <div className="col-sm-12 col-md-6 col-lg-4 pax">
+                        <Link to="/Photography/FoodPhotography">
+                            <div className="img__wrap thumbnail">
+
+                                <img className="img__img" src={p13} alt="آلبوم عکس غذا و رستوران" />
+
+                                <div className="img__description">
+                                    <div className="m-center">
+
+                                        <h4 className="hide">This album contains photos of foods, edibles and restaurants  </h4>
+                                        <h4 className="farsi2">آلبوم شامل عکس هایی از انواع خوراکی و غذا مثل آبمیوه، نوشیدنی گرم، دسر، سبزیجات، میوه، صبحانه، ساندویچ و پیتزا </h4>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <p className="hide">Food Photography Album</p>
+                            <p className="farsi1 pt-1"> آلبوم غذا و خوراکی </p>
+                        </Link>
+                    </div>
+                </Fade>
+                <Fade right>
+                    <div className="col-sm-12 col-md-6 col-lg-4 pax">
+                        <Link to="/Photography/ChildrenPhotography">
+                            <div className="img__wrap thumbnail">
+                                <img className="img__img" src={p3} alt="آلبوم عکس از کودکان و نوجوانان" />
+                                <div className="img__description">
+                                    <div className="m-center">
+                                        <h4 className="hide">This album includes photos of children and youth </h4>
+                                        <h4 className="farsi2">
+                                            آلبوم شامل عکس هایی از کودکان
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <p className="hide">Children Photography Album</p>
+                            <p className="farsi1 pt-1">آلبوم کودک</p>
+                        </Link>
+                    </div>
+
                 </Fade>
                 {/*<Fade bottom>*/}
                     {/*<div className="col-sm-12 col-md-6 col-lg-4 pax">*/}
