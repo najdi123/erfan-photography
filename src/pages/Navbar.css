@@ -34,7 +34,7 @@ a {
 .nav-link1{
     /*background-color: #e5e5e5;*/
 
-    font: 28px "shabnam","Open Sans","Arial",sans-serif !important;
+    font: 22px "shabnam","Open Sans","Arial",sans-serif !important;
     line-height: 35px;
     text-align: center;
     text-transform: none;
@@ -52,6 +52,11 @@ a {
 }
 .nav-link:hover{
     color: rgb(0, 240, 220) !important;
+}
+.navbar-toggler:hover{
+    color: black !important;
+    background-color: rgba(152, 254, 246, 0.35);
+
 }
 .sticky {
     position: center;
