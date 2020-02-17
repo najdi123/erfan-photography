@@ -47,6 +47,9 @@ a {
 }
 .nav-link1:hover{
     color: rgb(0, 240, 220);
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgba(152, 254, 246, 0.45);
 }
 .sticky {
     position: fixed;
