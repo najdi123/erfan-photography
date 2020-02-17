@@ -9,9 +9,9 @@ class Jumbotron extends Component {
             <div className="jumbotron">
                 <div className="container">
                     <Flash>
-                        <h6 className="name farsi2">عرفان عسکری</h6>
+                        <h6 className="name farsi3">عرفان عسکری</h6>
                     </Flash>
-                    <Fade left>
+                    <Fade right>
                         <p className="describeNew">
                             عکاس و مشاور برندینگ و دیجیتال مارکتینگ
                         </p>

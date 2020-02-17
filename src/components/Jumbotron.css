@@ -20,7 +20,7 @@
 .name {
     font: 700 20px "shabnam","Open Sans","Arial",sans-serif;
     letter-spacing: 2px;
-    line-height: 2em;
+    line-height: 30px !important;
     direction:rtl;
     border-left: 5px solid rgb(0, 240, 220);
 

@@ -18,6 +18,11 @@
     font: 18px "shabnam","Open Sans","Arial",sans-serif !important;
     text-decoration: none;
 }
+.farsi3{
+    font: 20px "shabnam","Open Sans","Arial",sans-serif !important;
+    text-decoration: none;
+    line-height: 40px !important;
+}
 
 img{
     display: block;
