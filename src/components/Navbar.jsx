@@ -14,7 +14,7 @@ class Navbar extends Component {
                 <div className="container">
 
 
-                    <button className="navbar-toggler navbar-toggler-right ml-auto" type="button" data-toggle="collapse" data-target="#mobile-nav">
+                    <button className="navbar-toggler " type="button" data-toggle="collapse" data-target="#mobile-nav">
                         <span className="navbar-toggler-icon"></span>
                     </button>
 
