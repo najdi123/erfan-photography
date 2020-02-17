@@ -39,8 +39,8 @@ class Gallery extends Component {
                                 <div className="img__description">
                                     <div className="m-center">
 
-                                        <h5 className="hide">This album contains photos of foods, edibles and restaurants  </h5>
-                                        <h5 className="farsi2">آلبوم شامل عکس هایی از انواع خوراکی و غذا مثل آبمیوه، نوشیدنی گرم، دسر، سبزیجات، میوه، صبحانه، ساندویچ و پیتزا </h5>
+                                        <h4 className="hide">This album contains photos of foods, edibles and restaurants  </h4>
+                                        <h4 className="farsi2">آلبوم شامل عکس هایی از انواع خوراکی و غذا مثل آبمیوه، نوشیدنی گرم، دسر، سبزیجات، میوه، صبحانه، ساندویچ و پیتزا </h4>
 
                                     </div>
                                 </div>
@@ -59,7 +59,10 @@ class Gallery extends Component {
                                 <img className="img__img" src={p7} alt="آلبوم عکس لباس و مدلینگ" />
                                 <div className="img__description">
                                     <div className="m-center">
-                                        <h5>This album includes photos of out-door modeling, clothing and accessories</h5>
+                                        <h4 className="hide">This album includes photos of out-door modeling, clothing and accessories</h4>
+                                        <h4 className="farsi2">
+                                            آلبوم شامل عکس هایی از پوشاک همراه مدل
+                                        </h4>
                                     </div>
                                 </div>
                             </div>
@@ -76,10 +79,10 @@ class Gallery extends Component {
                                 <img className="img__img" src={p11} alt="" />
                                 <div className="img__description">
                                     <div className="m-center">
-                                        <h5 className="hide">This album contains photos of products such as perfumes, make up, jewlery, sofas, handbags and shoes</h5>
-                                        <h5 className="farsi2">
+                                        <h4 className="hide">This album contains photos of products such as perfumes, make up, jewlery, sofas, handbags and shoes</h4>
+                                        <h4 className="farsi2">
                                             آلبوم شامل عکس هایی از محصولات تولیدی مثل عطر، لوازم آرایشی، جواهرات، مبل، کیف و کفش
-                                        </h5>
+                                        </h4>
                                     </div>
                                 </div>
                             </div>
@@ -112,10 +115,10 @@ class Gallery extends Component {
                                 <img className="img__img" src={p3} alt="آلبوم عکس از کودکان و نوجوانان" />
                                 <div className="img__description">
                                     <div className="m-center">
-                                        <h5 className="hide">This album includes photos of children and youth </h5>
-                                        <h5 className="farsi2">
+                                        <h4 className="hide">This album includes photos of children and youth </h4>
+                                        <h4 className="farsi2">
                                             آلبوم شامل عکس هایی از کودکان
-                                        </h5>
+                                        </h4>
                                     </div>
                                 </div>
                             </div>
@@ -153,10 +156,10 @@ class Gallery extends Component {
                                 <img className="img__img" src={p17} alt="آلبوم عکس از شخصیتهای معروف مثل بازیگران سینمایی و بازیکنان فوتبال و خواننده" />
                                 <div className="img__description">
                                     <div className="m-center">
-                                        <h5 className="hide">This album contains photos of known and famous characters such as actors and actresses, singers and football players</h5>
-                                        <h5 className="farsi2">
+                                        <h4 className="hide">This album contains photos of known and famous characters such as actors and actresses, singers and football players</h4>
+                                        <h4 className="farsi2">
                                             آلبوم شامل عکس های مدلینگ افراد معروف مثل بازیگران، خواننده و فوتبالیست ها
-                                        </h5>
+                                        </h4>
                                     </div>
                                 </div>
                             </div>
@@ -185,10 +188,10 @@ class Gallery extends Component {
                                 <img className="img__img" src={p18} alt="" />
                                 <div className="img__description">
                                     <div className="m-center">
-                                        <h5 className="hide">This album is pictures taken from quadcopters and drones from above</h5>
-                                        <h5 className="farsi2">
+                                        <h4 className="hide">This album is pictures taken from quadcopters and drones from above</h4>
+                                        <h4 className="farsi2">
                                             آلبوم شامل عکس های هوایی از بالا یا توسط پهباد
-                                        </h5>
+                                        </h4>
                                     </div>
                                 </div>
                             </div>
@@ -205,7 +208,10 @@ class Gallery extends Component {
                                 <img className="img__img" src={p6} alt="" />
                                 <div className="img__description">
                                     <div className="m-center">
-                                        <h5>This album includes photos of out-door modeling, clothing and accesories</h5>
+                                        <h4 className="hide">This album includes photos of out-door modeling, clothing and accesories</h4>
+                                        <h4 className="farsi2">
+                                            آلبوم شامل عکس هایی از رستوران ها، فضاهای صنعتی و خط تولید
+                                        </h4>
                                     </div>
                                 </div>
                             </div>
@@ -222,10 +228,10 @@ class Gallery extends Component {
                                 <img className="img__img" src={p9} alt="" />
                                 <div className="img__description">
                                     <div className="m-center">
-                                        <h5 className="hide">This album contains photos of people in different situations such as events or sports</h5>
-                                        <h5 className="farsi2">
+                                        <h4 className="hide">This album contains photos of people in different situations such as events or sports</h4>
+                                        <h4 className="farsi2">
                                             آلبوم شامل عکس های ورزشی و لایف استایل
-                                        </h5>
+                                        </h4>
                                     </div>
                                 </div>
                             </div>

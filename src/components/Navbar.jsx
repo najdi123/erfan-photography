@@ -11,7 +11,7 @@ class Navbar extends Component {
     render() {
         return (
             <nav className="navbar navbar-expand-sm header sticky navbar-light bg-light mb-4">
-                <div className="container-fluid ">
+                <div className="container">
 
 
                     <button className="navbar-toggler navbar-toggler-right ml-auto" type="button" data-toggle="collapse" data-target="#mobile-nav">
@@ -19,9 +19,9 @@ class Navbar extends Component {
                     </button>
 
                     <div className="navbar-brand" href="#">
-                        <Flash>
-                            <h4  className="brand-text">ERFAN PHOTOGRAPHY</h4>
-                        </Flash>
+                        {/*<Flash>*/}
+                        {/*    <h4  className="brand-text">ERFAN PHOTOGRAPHY</h4>*/}
+                        {/*</Flash>*/}
                         {/*<Fade left>*/}
                         {/*    <p className="describe">*/}
                         {/*        Freelance Photographer and Branding Consultant based in*/}

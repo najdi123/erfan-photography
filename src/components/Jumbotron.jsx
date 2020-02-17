@@ -9,12 +9,11 @@ class Jumbotron extends Component {
             <div className="jumbotron">
                 <div className="container">
                     <Flash>
-                        <h6 className="name">ERFAN ASKARI</h6>
+                        <h6 className="name farsi2">عرفان عسکری</h6>
                     </Flash>
                     <Fade left>
                         <p className="describeNew">
-                            Freelance Photographer and Branding Consultant based in
-                            Tehran.
+                            عکاس و مشاور برندینگ و دیجیتال مارکتینگ
                         </p>
                     </Fade>
 

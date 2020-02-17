@@ -1,3 +1,8 @@
+@font-face {
+    font-family: shabnam-light;
+    src: url(../fonts/Shabnam-Light.woff);
+
+}
 .describe {
     font:  300 10px "worksans","Open Sans","Arial",sans-serif;
     line-height: 10px;
@@ -6,17 +11,17 @@
     margin-bottom: 0;
 }
 .describeNew {
-    font:  300 30px "worksans","Open Sans","Arial",sans-serif;
+    font: 25px "shabnam-light","Arial",sans-serif;
     line-height: 42px;
     letter-spacing: 0;
     text-transform: none;
     margin-bottom: 0;
 }
 .name {
-    font: 700 15px "worksansbold","Open Sans","Arial",sans-serif;
+    font: 700 20px "shabnam","Open Sans","Arial",sans-serif;
     letter-spacing: 2px;
     line-height: 2em;
-
+    direction:rtl;
     border-left: 5px solid rgb(0, 240, 220);
 
     padding-left: 8px;
