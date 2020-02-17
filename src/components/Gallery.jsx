@@ -33,7 +33,7 @@ class Gallery extends Component {
                     <div className="col-sm-12 col-md-6 col-lg-4 pax">
                         <Link to="/Photography/ClothingPhotography">
                             <div className="img__wrap thumbnail">
-                                <img className="img__img" src={p7} alt="آلبوم عکس لباس و مدلینگ" />
+                                <img className="img__img " src={p7} alt="آلبوم عکس لباس و مدلینگ" />
                                 <div className="img__description">
                                     <div className="m-center">
                                         <h4 className="hide">This album includes photos of out-door modeling, clothing and accessories</h4>
@@ -44,7 +44,7 @@ class Gallery extends Component {
                                 </div>
                             </div>
                             <p className="hide">Clothing/Modeling Photography Album</p>
-                            <p className="farsi1 pt-1">آلبوم لباس و مدلینگ</p>
+                            <p className="farsi1 pt-1 hover">آلبوم لباس و مدلینگ</p>
                         </Link>
                     </div>
 
@@ -65,7 +65,7 @@ class Gallery extends Component {
                                 </div>
                             </div>
                             <p className="hide">Industrial Photography</p>
-                            <p className="farsi1 pt-1">آلبوم عکاسی صنعتی </p>
+                            <p className="farsi1 pt-1 hover">آلبوم عکاسی صنعتی </p>
                         </Link>
                     </div>
                 </Fade>
@@ -85,7 +85,7 @@ class Gallery extends Component {
                                 </div>
                             </div>
                             <p className="hide">PNG Photography Album</p>
-                            <p className="farsi1 pt-1">PNG آلبوم عکاسی </p>
+                            <p className="farsi1 pt-1 hover">PNG آلبوم عکاسی </p>
                         </Link>
                     </div>
 
@@ -122,7 +122,7 @@ class Gallery extends Component {
                                 </div>
                             </div>
                             <p className="hide">Famous faces Photography Album</p>
-                            <p className="farsi1 pt-1">آلبوم سلبریتی ها</p>
+                            <p className="farsi1 pt-1 hover">آلبوم سلبریتی ها</p>
                         </Link>
                     </div>
                 </Fade>
@@ -148,7 +148,7 @@ class Gallery extends Component {
 
                             </div>
                             <p className="hide">Food Photography Album</p>
-                            <p className="farsi1 pt-1"> آلبوم غذا و خوراکی </p>
+                            <p className="farsi1 pt-1 hover"> آلبوم غذا و خوراکی </p>
                         </Link>
                     </div>
                 </Fade>
@@ -167,7 +167,7 @@ class Gallery extends Component {
                                 </div>
                             </div>
                             <p className="hide">Children Photography Album</p>
-                            <p className="farsi1 pt-1">آلبوم کودک</p>
+                            <p className="farsi1 pt-1 hover">آلبوم کودک</p>
                         </Link>
                     </div>
 
@@ -200,7 +200,7 @@ class Gallery extends Component {
                                 </div>
                             </div>
                         <p className="hide">Aerial Photography and Filming</p>
-                        <p className="farsi1 pt-1">آلبوم عکاسی و فیلم برداری هوایی </p>
+                        <p className="farsi1 pt-1 hover">آلبوم عکاسی و فیلم برداری هوایی </p>
                         </Link>
                     </div>
                 </Fade>
@@ -220,7 +220,7 @@ class Gallery extends Component {
                                 </div>
                             </div>
                         <p className="hide">Location Photography Album</p>
-                        <p className="farsi1 pt-1">آلبوم عکاسی محیطی </p>
+                        <p className="farsi1 pt-1 hover">آلبوم عکاسی محیطی </p>
                         </Link>
                     </div>
                 </Fade>
@@ -240,7 +240,7 @@ class Gallery extends Component {
                                 </div>
                             </div>
                         <p className="hide">Lifestyle Photography Album</p>
-                        <p className="farsi1 pt-1">لایف استایل</p>
+                        <p className="farsi1 pt-1 hover">لایف استایل</p>
                         </Link>
                     </div>
                 </Fade>

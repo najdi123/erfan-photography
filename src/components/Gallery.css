@@ -23,6 +23,16 @@
     text-decoration: none;
     line-height: 40px !important;
 }
+.hover:hover{
+    color: rgb(0, 240, 220);
+    text-decoration: none;
+}
+.pax:hover .hover{
+    color: rgb(0, 240, 220);
+    /*text-decoration-color: aquamarine;*/
+    text-decoration: none;
+    text-shadow: black;
+}
 
 img{
     display: block;
