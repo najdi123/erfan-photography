@@ -55,6 +55,9 @@ a {
     /*z-index: 100;*/
 
 }
+.image-display{
+    margin-top: 50px;
+}
 /*.nav-item {*/
     /*display: block;*/
     /*position: relative;*/
@@ -63,9 +66,13 @@ a {
 .ml-auto {
     margin-right: 1% !important;
 }
+
 .go-right {
     margin-right: 1% !important;
 }
 .lefto{
     margin-left: 1% !important;
 }
+/*.mr-auto {*/
+/*    margin-bottom: 60px;*/
+/*}*/
