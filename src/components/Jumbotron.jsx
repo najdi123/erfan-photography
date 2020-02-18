@@ -11,12 +11,6 @@ class Jumbotron extends Component {
                     <Flash>
                         <h6 className="name farsi3">عرفان عسکری</h6>
                     </Flash>
-                    <Fade right>
-                        <p className="describeNew">
-                            عکاس و مشاور برندینگ و دیجیتال مارکتینگ
-                        </p>
-                    </Fade>
-
                 </div>
             </div>
         );
