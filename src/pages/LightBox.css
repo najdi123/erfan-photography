@@ -42,7 +42,7 @@ img{
         display: inline-block;
 
         /*height: fit-content;*/
-        height: 400px;
+        height: 250px;
         object-fit: cover;
         /*flex: 0 0 95%;*/
         max-width: 100%;
