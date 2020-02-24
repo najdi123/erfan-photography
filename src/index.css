@@ -3,3 +3,14 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+.row{
+  margin: 0;
+}
+/*.container-fluid{*/
+/*  padding:0!important;*/
+/*  margin:0!important;*/
+/*}*/
+/*.container{*/
+/*  padding:0!important;*/
+/*  margin:0!important;*/
+/*}*/

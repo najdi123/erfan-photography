@@ -22,6 +22,7 @@ img.ril-image-current.ril__image{
     align-items: center;
     align-content: center;
     align-self: center;
+    margin-top: 70px;
 }
 img{
     display: block;
@@ -34,7 +35,7 @@ img{
         /*height: 250px;*/
         /*width: 250px;*/
 
-        width: 100%;
+        width: 97%;
         /*margin: 5px 1px 5px 10px;*/
         margin: 2px 4px;
         cursor: pointer;
@@ -45,7 +46,7 @@ img{
         height: 250px;
         object-fit: cover;
         /*flex: 0 0 95%;*/
-        max-width: 100%;
+        max-width: 97%;
 
     }
 }
@@ -57,17 +58,17 @@ img{
         /*height: auto;*/
         /*height: fit-content;*/
         object-fit: cover;
-        width: 50%;
+        width: 48%;
         /*height: 300px;*/
         /*margin: 5px 1px 5px 10px;*/
         /*margin: 0;*/
-        margin: 2px 4px;
+        /*margin: 2px 4px;*/
         cursor: pointer;
         border-radius: 0;
         display: inline-block;
-
+        margin: 2px 2px;
         /*flex: 0 0 48%;*/
-        max-width: 50%;
+        max-width: 48%;
 
     }
 }
@@ -77,16 +78,16 @@ img{
         /*height: 250px;*/
         /*width: 250px;*/
         height: 500px;
-        width: 50%;
+        width: 49%;
         /*margin: 5px 1px 5px 10px;*/
         /*margin: 0px;*/
-        margin: 2px 4px;
+        margin: 2px 2px;
         cursor: pointer;
         border-radius: 0;
         display: inline-block;
 
         flex: 0 0 48%;
-        max-width: 50%;
+        max-width: 49%;
 
     }
 }

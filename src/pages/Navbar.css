@@ -30,6 +30,7 @@ a {
     line-height: 35px;
     text-align: center;
     text-transform: none;
+    border-left: 2px black;
 }
 .nav-link1{
     /*background-color: #e5e5e5;*/

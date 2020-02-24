@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffd93a9d-9ee6-41de-9cb6-091749bd8226" name="Default" comment="" />
+    <list default="true" id="ffd93a9d-9ee6-41de-9cb6-091749bd8226" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/LightBox.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LightBox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Navbar.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -93,7 +99,11 @@
       <workItem from="1570692287098" duration="622000" />
       <workItem from="1570715448421" duration="1233000" />
       <workItem from="1581855558234" duration="914000" />
-      <workItem from="1581856514336" duration="44649000" />
+      <workItem from="1581856514336" duration="46295000" />
+      <workItem from="1582293705522" duration="482000" />
+      <workItem from="1582495451273" duration="704000" />
+      <workItem from="1582554670559" duration="83000" />
+      <workItem from="1582572956116" duration="1542000" />
     </task>
     <servers />
   </component>
@@ -110,14 +120,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1581879957969">
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1582294185996">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581879957969" />
-    <state x="583" y="82" width="627" height="568" key="find.popup" timestamp="1582045934952">
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582294185996" />
+    <state x="583" y="82" width="627" height="568" key="find.popup" timestamp="1582573871624">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="583" y="82" width="627" height="568" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1582045934952" />
+    <state x="583" y="82" width="627" height="568" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1582573871624" />
     <state x="552" y="165" key="run.anything.popup" timestamp="1582043922062">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
