@@ -30,7 +30,8 @@ img{
     height: auto;
 }
 .home-bg{
-    background-image: url("../images/PhotographyImages/Clothing/06.jpg");
+    /*background-image: url("../images/PhotographyImages/Clothing/06.jpg");*/
+    background-image: url("../images/CG7A8939.jpg");
     background-repeat: no-repeat, repeat;
     background-size: cover;
     background-position: center;
@@ -41,6 +42,9 @@ img{
 }
 
 @media (min-width: 200px) {
+    .header {
+        line-height: 40px;
+    }
     img.thumbnail {
         /*height: 250px;*/
         /*width: 250px;*/
@@ -75,6 +79,9 @@ img{
 }
 
 @media (min-width: 577px) {
+    .header {
+        line-height: 25px;
+    }
     img.thumbnail {
         /*height: 250px;*/
         /*width: 250px;*/
