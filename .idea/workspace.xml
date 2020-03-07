@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffd93a9d-9ee6-41de-9cb6-091749bd8226" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/Albums.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Gallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Jumbotron.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Jumbotron.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Jumbotron.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Jumbotron.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/LightBox.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LightBox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Navbar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +110,8 @@
       <workItem from="1582293705522" duration="482000" />
       <workItem from="1582495451273" duration="704000" />
       <workItem from="1582554670559" duration="83000" />
-      <workItem from="1582572956116" duration="2752000" />
+      <workItem from="1582572956116" duration="9878000" />
+      <workItem from="1583608659905" duration="1804000" />
     </task>
     <servers />
   </component>
@@ -117,14 +128,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1582294185996">
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1582661452179">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582294185996" />
-    <state x="583" y="82" width="627" height="568" key="find.popup" timestamp="1582573871624">
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582661452179" />
+    <state x="583" y="82" width="627" height="568" key="find.popup" timestamp="1583610320304">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="583" y="82" width="627" height="568" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1582573871624" />
+    <state x="583" y="82" width="627" height="568" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1583610320304" />
     <state x="552" y="165" key="run.anything.popup" timestamp="1582576986784">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

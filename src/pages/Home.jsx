@@ -10,11 +10,11 @@ import Gallery from '../components/Gallery'
 class Home extends Component {
     render() {
         return (
-            <div>
+            <div className="">
                 <Navbar />
                 <br/>
                 <Jumbotron/>
-                <Gallery/>
+
 
 
                 <Footer />

@@ -15,6 +15,8 @@ import IndustrialPhoto from './pages/IndustrialPhotography.jsx';
 import Aerial from './pages/AerialPhotography';
 import Famous from './pages/FamousFaces';
 
+import Albums from './pages/Albums';
+
 
 
 class App extends Component {
@@ -26,6 +28,8 @@ class App extends Component {
                         <Route exact path="/" component={Home}/>
                         <Route path="/about" component={About}/>
                         <Route path="/contact" component={Contact}/>
+
+                        <Route exact path="/Photography" component={Albums}/>
 
                         <Route exact path="/Photography/FoodPhotography" component={FoodPhoto}/>
                         <Route exact path="/Photography/LifeStylePhotography" component={LifeStylePhotos}/>

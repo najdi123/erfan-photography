@@ -17,7 +17,7 @@
 .brand-text {
     font:  300 22px "worksansbold","Open Sans","Arial",sans-serif;
     line-height: 25px;
-    letter-spacing: 2px;
+    /*letter-spacing: 2px;*/
 
     color: rgb(0, 240, 220);
 }
@@ -32,7 +32,7 @@ a {
 
     font:  300 12px "worksansbold","Open Sans","Arial",sans-serif;
     line-height: 25px;
-    letter-spacing: 2px;
+    /*letter-spacing: 2px;*/
     text-transform: none;
     /*margin-left: 1em !important;*/
 }
@@ -42,7 +42,7 @@ a {
 
     font:  300 20px "worksansbold","Open Sans","Arial",sans-serif;
     line-height: 35px;
-    letter-spacing: 2px;
+    /*letter-spacing: 2px;*/
     text-transform: none;
 }
 .nav-link1:hover{
@@ -63,16 +63,16 @@ a {
     /*position: relative;*/
     /*float: right;*/
 /*}*/
-.ml-auto {
-    margin-right: 1% !important;
-}
+/*.ml-auto {*/
+/*    margin-right: 1% !important;*/
+/*}*/
 
-.go-right {
-    margin-right: 1% !important;
-}
-.lefto{
-    margin-left: 1% !important;
-}
+/*.go-right {*/
+/*    margin-right: 1% !important;*/
+/*!*}*!*/
+/*.lefto{*/
+/*    margin-left: 1% !important;*/
+/*}*/
 /*.mr-auto {*/
 /*    margin-bottom: 60px;*/
 /*}*/

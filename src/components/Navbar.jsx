@@ -43,6 +43,11 @@ class Navbar extends Component {
                                 </Link>
                             </li>
                             <li className="nav-item">
+                                <Link className="nav-link1" to="/photography">
+                                    نمونه کارها
+                                </Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link className="nav-link1" to="/">
                                     خانه
                                 </Link>

@@ -29,8 +29,18 @@ img{
     width: 100%;
     height: auto;
 }
+.home-bg{
+    background-image: url("../images/PhotographyImages/Clothing/06.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
 
-@media (min-width: 250px) {
+}
+
+@media (min-width: 200px) {
     img.thumbnail {
         /*height: 250px;*/
         /*width: 250px;*/
@@ -48,6 +58,19 @@ img{
         /*flex: 0 0 95%;*/
         max-width: 98.75%;
 
+    }
+    .home-bg{
+        height: 82vh;
+        width: 100vw;
+        /*object-fit: cover;*/
+
+    }
+    .jumbotron {
+        background-color: white;
+        margin-top: 35px;
+    }
+    .portfolio{
+        margin-top: 60px;
     }
 }
 
@@ -71,6 +94,19 @@ img{
         max-width: 49.5%;
 
     }
+    .home-bg{
+        height: 82vh;
+        width: 100vw;
+        object-fit: cover;
+
+    }
+    .jumbotron {
+        background-color: white;
+        margin-top: 22px;
+    }
+    .portfolio{
+        margin-top: 46px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -89,7 +125,15 @@ img{
         /*flex: 0 0 48%;*/
         max-width: 49.5%;
 
+
     }
+    .home-bg{
+        height: 82vh;
+        width: 97.9vw;
+        object-fit: cover;
+
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -109,6 +153,18 @@ img{
         /*flex: 0 0 22%;*/
         max-width: 24.75%;
 
+    }
+    .home-bg{
+        height: 83vh;
+        width: 98.0vw;
+        object-fit: cover !important;
+
+    }
+}
+@media (min-width: 1100px) {
+    .home-bg{
+        height: 100vh;
+        width: 98.50vw;
     }
 }
 
