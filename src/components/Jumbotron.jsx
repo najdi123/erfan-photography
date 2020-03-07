@@ -11,9 +11,9 @@ class Jumbotron extends Component {
                 <div className="container">
                     <br className="margin-bottom"/>
                     {/*<img src={p7} alt=""/>*/}
-                    <Flash>
-                        <h6 className="name farsi3">عرفان عسکری</h6>
-                    </Flash>
+                    {/*<Flash>*/}
+                    {/*    <h6 className="name farsi3">عرفان عسکری</h6>*/}
+                    {/*</Flash>*/}
                 </div>
             </div>
         );
