@@ -18,10 +18,8 @@
     color: #333;
 
 }
-.navbar{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+
+
 
 a {
     color: #333333;
@@ -35,16 +33,17 @@ a {
     text-align: center;
     text-transform: none;
     border-left: 2px black;
+    color: white;
 }
 .nav-link1{
     /*background-color: #e5e5e5;*/
 
-    font: 17px "shabnam","Open Sans","Arial",sans-serif !important;
+    font: 14px "shabnam","Open Sans","Arial",sans-serif !important;
     line-height: 45px;
     text-align: center;
     text-transform: none;
     margin: 20px;
-
+    color: white;
 
 
 }
@@ -61,10 +60,26 @@ a {
     color: rgb(0, 240, 220) !important;
 
 }
-.navbar-toggler:hover{
-    color: black !important;
-    background-color: rgba(152, 254, 246, 0.35);
+/*.navbar-toggler:hover{*/
+/*    color: black !important;*/
+/*    background-color: rgba(152, 254, 246, 0.35);*/
 
+/*}*/
+.navbar-toggler-icon{
+    color: white!important;
+    /*background-color: white!important;*/
+}
+.navbar-toggler{
+    color: #ffffff !important;
+    background-color: rgba(152, 254, 246, 0.05);
+    padding: 0 5px!important;
+
+}
+.toggler-icon{
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
 }
 .sticky {
     position: center;
@@ -74,7 +89,10 @@ a {
     opacity:0.9;
 }
 .active {
-    color: rgb(0, 240, 220)!important;
+    /*color: rgb(0, 240, 220)!important;*/
+    color: white !important;
+    text-decoration: underline white solid;
+    text-decoration-width: 2px;
 }
 .home {
     text-transform: none;

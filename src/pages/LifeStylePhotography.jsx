@@ -44,11 +44,13 @@ class IndiLightbox extends React.Component{
             <div className="wide"  >
 
                 <div >
-                    <nav className="navbar navbar-expand-sm navbar-light bg-light mb-4 sticky">
+                    <nav className="navbar navbar-expand-sm sticky">
                         <div className="">
 
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
-                                <span className="navbar-toggler-icon"></span>
+                                <div className="toggler-icon"></div>
+                                <div className="toggler-icon"></div>
+                                <div className="toggler-icon"></div>
                             </button>
 
                             <div className="collapse navbar-collapse" id="mobile-nav">

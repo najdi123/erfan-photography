@@ -10,12 +10,14 @@ import './Navbar.css';
 class Navbar extends Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-sm header sticky navbar-light bg-light mb-4">
+            <nav className="navbar navbar-expand-sm header sticky mb-4">
                 <div className="container">
 
 
-                    <button className="navbar-toggler " type="button" data-toggle="collapse" data-target="#mobile-nav">
-                        <span className="navbar-toggler-icon"></span>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
+                            <div className="toggler-icon"></div>
+                            <div className="toggler-icon"></div>
+                            <div className="toggler-icon"></div>
                     </button>
 
                     <div className="navbar-brand" href="#">
@@ -39,12 +41,12 @@ class Navbar extends Component {
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link1" to="/about">
-                                    درباره
+                                    درباره ما
                                 </Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link1" to="/photography">
-                                    نمونه کارها
+                                    گالری
                                 </Link>
                             </li>
                             <li className="nav-item">

@@ -22,7 +22,7 @@ img.ril-image-current.ril__image{
     align-items: center;
     align-content: center;
     align-self: center;
-    margin-top: 70px;
+    /*margin-top: 70px;*/
 }
 img{
     display: block;
@@ -42,6 +42,15 @@ img{
 }
 
 @media (min-width: 200px) {
+    .home-footer-container{
+        margin-top: 450px;
+    }
+    .navbar{
+        padding: 0!important;
+    }
+    .collapse {
+        background-color: rgba(150, 150, 150, 0.84);
+    }
     .header {
         line-height: 40px;
     }
@@ -64,14 +73,14 @@ img{
 
     }
     .home-bg{
-        height: 82vh;
+        height: 100vh;
         width: 100vw;
         /*object-fit: cover;*/
 
     }
     .jumbotron {
         background-color: white;
-        margin-top: 35px;
+        /*margin-top: 35px;*/
     }
     .portfolio{
         margin-top: 60px;
@@ -79,6 +88,15 @@ img{
 }
 
 @media (min-width: 577px) {
+    .home-footer-container{
+        margin-top: 450px;
+    }
+    .navbar{
+        padding: 10px!important;
+    }
+    .collapse {
+        background-color: rgba(209, 209, 209, 0);
+    }
     .header {
         line-height: 25px;
     }
@@ -102,14 +120,14 @@ img{
 
     }
     .home-bg{
-        height: 82vh;
+        height: 100vh;
         width: 100vw;
         object-fit: cover;
 
     }
     .jumbotron {
         background-color: white;
-        margin-top: 22px;
+        /*margin-top: 22px;*/
     }
     .portfolio{
         margin-top: 46px;
@@ -117,6 +135,9 @@ img{
 }
 
 @media (min-width: 768px) {
+    .home-footer-container{
+        margin-top: 450px;
+    }
     img.thumbnail {
         /*height: 250px;*/
         /*width: 250px;*/
@@ -135,8 +156,8 @@ img{
 
     }
     .home-bg{
-        height: 82vh;
-        width: 97.9vw;
+        height: 100vh;
+        width: 100vw;
         object-fit: cover;
 
     }
@@ -144,6 +165,9 @@ img{
 }
 
 @media (min-width: 992px) {
+    .home-footer-container{
+        margin-top: 40%;
+    }
     img.thumbnail {
         /*height: 250px;*/
         /*width: 250px;*/
@@ -162,16 +186,20 @@ img{
 
     }
     .home-bg{
-        height: 83vh;
-        width: 98.0vw;
+        height: 100vh;
+        width: 100vw;
         object-fit: cover !important;
 
     }
 }
 @media (min-width: 1100px) {
+    .home-footer-container{
+        margin-top: 450px;
+        /*margin-top: 30%;*/
+    }
     .home-bg{
         height: 100vh;
-        width: 98.50vw;
+        width: 100vw;
     }
 }
 

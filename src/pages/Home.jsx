@@ -11,13 +11,13 @@ class Home extends Component {
     render() {
         return (
             <div className="">
-                <Navbar />
-                <br/>
+                {/*<Navbar />*/}
+
                 <Jumbotron/>
 
 
 
-                <Footer />
+
             </div>
         );
     }

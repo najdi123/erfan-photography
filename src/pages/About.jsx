@@ -15,14 +15,14 @@ class About extends Component {
             <div>
                 <Navbar />
                 <img src={pic}   alt="Product photography photo studio"  className="about-pic" />
-                <div className="container">
+                <div className=" bg-dark">
                     <Fade right>
-                        <p className="describeNew text-center pt-3">
+                        <p className="describeNew text-center pt-3 text-white">
                             عکاس و مشاور برندینگ و دیجیتال مارکتینگ
                         </p>
                     </Fade>
                     <Fade left>
-                        <p className="about-erf pb-3">
+                        <p className="about-erf pb-3 mb-0  text-white">
                             Erfan Askari is a freelance Photographer and Branding Consultant based in Tehran. I have over 12 years of professional work with the Iran’s leading brands and have developed more than 20 brands while collaborating with some of the best design agencies around the globe.
                             <br/>
 

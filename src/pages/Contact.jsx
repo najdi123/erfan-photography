@@ -13,10 +13,10 @@ class About extends Component {
             <div>
                 <Navbar />
                 <img src={pic}  alt="Product photography photo studio"   className="about-pic" />
-                <div className=" contact">
+                <div className=" contact bg-dark">
                     <Fade right>
-                        <h2 className="contact"><i className="fas fa-phone"></i>  0912 358 35 62</h2>
-                        <h2 className="contact" ><i className="fas fa-envelope-open"></i> erfan.askari89@gmail.com</h2>
+                        <h2 className="contact  text-white"><i className="fas fa-phone"></i>  0912 358 35 62</h2>
+                        <h2 className="contact  text-white" ><i className="fas fa-envelope-open"></i> erfan.askari89@gmail.com</h2>
                     </Fade>
                 </div>
                 <Footer />
